@@ -2,6 +2,8 @@
 
 This application is attempts to java deserialize user provided input. commons-collections4:4.0 is on classpath and can be used for exploitation.
 
+![deserialize](https://cloud.githubusercontent.com/assets/4956006/15084178/28306b00-13d2-11e6-97a5-e8c08f25150b.png)
+
 ## Building
 
 (already done)
@@ -17,6 +19,7 @@ By default, application binds to 0.0.0.0:8000 (to bind to localhost, edit src/ma
 Linux:
 
 ```sh
+git clone https://github.com/hvqzao/java-deserialize-webapp
 cd java-deserialize-webapp
 sh target/bin/webapp
 ```
@@ -24,6 +27,7 @@ sh target/bin/webapp
 Windows:
 
 ```sh
+git clone https://github.com/hvqzao/java-deserialize-webapp
 cd java-deserialize-webapp
 start target/bin/webapp.bat
 ```
@@ -36,5 +40,5 @@ java -jar ysoserial-0.0.4-all.jar CommonsCollections4 'shell command...' | base6
 
 ## License
 
-[MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+[MIT License](LICENSE)
 

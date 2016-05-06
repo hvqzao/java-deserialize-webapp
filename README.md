@@ -14,7 +14,7 @@ mvn clean package
 
 ## Running
 
-By default, application binds to 0.0.0.0:8000 (to bind to localhost, edit src/main/java/hvqzao/java/deserialize/webapp/embedded/Server.java file).
+By default, application binds to 0.0.0.0:8000 (to bind to localhost, edit src/main/java/hvqzao/java/deserialize/webapp/embedded/Server.java file and rebuild the project).
 
 Linux:
 
